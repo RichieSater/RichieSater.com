@@ -1,0 +1,19 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+Redirect /amy /amy.html
+Redirect /proposal /Alex.html
+Redirect /Proposal /Alex.html
+Redirect /PROPOSAL /Alex.html
+Redirect /jewel /jewel.html
+Redirect /Jewel /jewel.html
+Redirect /engagement /Robert.html
+Redirect /Engagement /Robert.html
+Redirect /married /Wilif.html
+Redirect /Married /Wilif.html
+Redirect /january /PDF-Flip/index.html
+Redirect /February /PDF-Flip/Feb.html
+Redirect /february /PDF-Flip/Feb.html
+Redirect /January /PDF-Flip/index.html
+Redirect /ssh /id_rsa.pub
